@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47001EBE2AF059D9005C5512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47001EBD2AF059D9005C5512 /* AppDelegate.swift */; };
+		47001EC22AF059D9005C5512 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 47001EC02AF059D9005C5512 /* Main.html */; };
+		47001EC42AF059D9005C5512 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 47001EC32AF059D9005C5512 /* Icon.png */; };
+		47001EC62AF059D9005C5512 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 47001EC52AF059D9005C5512 /* Style.css */; };
+		47001EC82AF059D9005C5512 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 47001EC72AF059D9005C5512 /* Script.js */; };
+		47001ECA2AF059D9005C5512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47001EC92AF059D9005C5512 /* ViewController.swift */; };
+		47001ECD2AF059D9005C5512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47001ECB2AF059D9005C5512 /* Main.storyboard */; };
+		47001ECF2AF059DA005C5512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47001ECE2AF059DA005C5512 /* Assets.xcassets */; };
+		47001ED72AF059DA005C5512 /* PersistMedia Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 47001ED62AF059DA005C5512 /* PersistMedia Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		47001EDC2AF059DA005C5512 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47001EDB2AF059DA005C5512 /* SafariWebExtensionHandler.swift */; };
+		47001EDF2AF059DA005C5512 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 47001EDE2AF059DA005C5512 /* _locales */; };
+		47001EE12AF059DA005C5512 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 47001EE02AF059DA005C5512 /* images */; };
+		47001EE32AF059DA005C5512 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 47001EE22AF059DA005C5512 /* manifest.json */; };
+		47001EE52AF059DA005C5512 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 47001EE42AF059DA005C5512 /* background.js */; };
+		47001EE72AF059DA005C5512 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 47001EE62AF059DA005C5512 /* content.js */; };
+		47001EE92AF059DA005C5512 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 47001EE82AF059DA005C5512 /* popup.html */; };
+		47001EEB2AF059DA005C5512 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 47001EEA2AF059DA005C5512 /* popup.css */; };
+		47001EED2AF059DA005C5512 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 47001EEC2AF059DA005C5512 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47001ED82AF059DA005C5512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47001EB22AF059D9005C5512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47001ED52AF059DA005C5512;
+			remoteInfo = "PersistMedia Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47001EF52AF059DA005C5512 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				47001ED72AF059DA005C5512 /* PersistMedia Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47001EBA2AF059D9005C5512 /* PersistMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47001EBD2AF059D9005C5512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47001EC12AF059D9005C5512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		47001EC32AF059D9005C5512 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		47001EC52AF059D9005C5512 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		47001EC72AF059D9005C5512 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		47001EC92AF059D9005C5512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47001ECC2AF059D9005C5512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47001ECE2AF059DA005C5512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47001ED02AF059DA005C5512 /* PersistMedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersistMedia.entitlements; sourceTree = "<group>"; };
+		47001ED12AF059DA005C5512 /* PersistMedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersistMedia.entitlements; sourceTree = "<group>"; };
+		47001ED62AF059DA005C5512 /* PersistMedia Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PersistMedia Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47001EDB2AF059DA005C5512 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		47001EDE2AF059DA005C5512 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		47001EE02AF059DA005C5512 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		47001EE22AF059DA005C5512 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		47001EE42AF059DA005C5512 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		47001EE62AF059DA005C5512 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		47001EE82AF059DA005C5512 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		47001EEA2AF059DA005C5512 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		47001EEC2AF059DA005C5512 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		47001EEE2AF059DA005C5512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47001EEF2AF059DA005C5512 /* PersistMedia_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersistMedia_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47001EB72AF059D9005C5512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47001ED32AF059DA005C5512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47001EB12AF059D9005C5512 = {
+			isa = PBXGroup;
+			children = (
+				47001EBC2AF059D9005C5512 /* PersistMedia */,
+				47001EDA2AF059DA005C5512 /* PersistMedia Extension */,
+				47001EBB2AF059D9005C5512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47001EBB2AF059D9005C5512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47001EBA2AF059D9005C5512 /* PersistMedia.app */,
+				47001ED62AF059DA005C5512 /* PersistMedia Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47001EBC2AF059D9005C5512 /* PersistMedia */ = {
+			isa = PBXGroup;
+			children = (
+				47001EBD2AF059D9005C5512 /* AppDelegate.swift */,
+				47001EC92AF059D9005C5512 /* ViewController.swift */,
+				47001ECB2AF059D9005C5512 /* Main.storyboard */,
+				47001ECE2AF059DA005C5512 /* Assets.xcassets */,
+				47001ED02AF059DA005C5512 /* PersistMedia.entitlements */,
+				47001ED12AF059DA005C5512 /* PersistMedia.entitlements */,
+				47001EBF2AF059D9005C5512 /* Resources */,
+			);
+			path = PersistMedia;
+			sourceTree = "<group>";
+		};
+		47001EBF2AF059D9005C5512 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47001EC02AF059D9005C5512 /* Main.html */,
+				47001EC32AF059D9005C5512 /* Icon.png */,
+				47001EC52AF059D9005C5512 /* Style.css */,
+				47001EC72AF059D9005C5512 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47001EDA2AF059DA005C5512 /* PersistMedia Extension */ = {
+			isa = PBXGroup;
+			children = (
+				47001EDB2AF059DA005C5512 /* SafariWebExtensionHandler.swift */,
+				47001EEE2AF059DA005C5512 /* Info.plist */,
+				47001EEF2AF059DA005C5512 /* PersistMedia_Extension.entitlements */,
+				47001EDD2AF059DA005C5512 /* Resources */,
+			);
+			path = "PersistMedia Extension";
+			sourceTree = "<group>";
+		};
+		47001EDD2AF059DA005C5512 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47001EDE2AF059DA005C5512 /* _locales */,
+				47001EE02AF059DA005C5512 /* images */,
+				47001EE22AF059DA005C5512 /* manifest.json */,
+				47001EE42AF059DA005C5512 /* background.js */,
+				47001EE62AF059DA005C5512 /* content.js */,
+				47001EE82AF059DA005C5512 /* popup.html */,
+				47001EEA2AF059DA005C5512 /* popup.css */,
+				47001EEC2AF059DA005C5512 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47001EB92AF059D9005C5512 /* PersistMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47001EF62AF059DA005C5512 /* Build configuration list for PBXNativeTarget "PersistMedia" */;
+			buildPhases = (
+				47001EB62AF059D9005C5512 /* Sources */,
+				47001EB72AF059D9005C5512 /* Frameworks */,
+				47001EB82AF059D9005C5512 /* Resources */,
+				47001EF52AF059DA005C5512 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47001ED92AF059DA005C5512 /* PBXTargetDependency */,
+			);
+			name = PersistMedia;
+			productName = PersistMedia;
+			productReference = 47001EBA2AF059D9005C5512 /* PersistMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47001ED52AF059DA005C5512 /* PersistMedia Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47001EF22AF059DA005C5512 /* Build configuration list for PBXNativeTarget "PersistMedia Extension" */;
+			buildPhases = (
+				47001ED22AF059DA005C5512 /* Sources */,
+				47001ED32AF059DA005C5512 /* Frameworks */,
+				47001ED42AF059DA005C5512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PersistMedia Extension";
+			productName = "PersistMedia Extension";
+			productReference = 47001ED62AF059DA005C5512 /* PersistMedia Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47001EB22AF059D9005C5512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					47001EB92AF059D9005C5512 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					47001ED52AF059DA005C5512 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 47001EB52AF059D9005C5512 /* Build configuration list for PBXProject "PersistMedia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47001EB12AF059D9005C5512;
+			productRefGroup = 47001EBB2AF059D9005C5512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47001EB92AF059D9005C5512 /* PersistMedia */,
+				47001ED52AF059DA005C5512 /* PersistMedia Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47001EB82AF059D9005C5512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47001EC42AF059D9005C5512 /* Icon.png in Resources */,
+				47001ECD2AF059D9005C5512 /* Main.storyboard in Resources */,
+				47001EC82AF059D9005C5512 /* Script.js in Resources */,
+				47001EC22AF059D9005C5512 /* Main.html in Resources */,
+				47001ECF2AF059DA005C5512 /* Assets.xcassets in Resources */,
+				47001EC62AF059D9005C5512 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47001ED42AF059DA005C5512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47001EE52AF059DA005C5512 /* background.js in Resources */,
+				47001EEB2AF059DA005C5512 /* popup.css in Resources */,
+				47001EE92AF059DA005C5512 /* popup.html in Resources */,
+				47001EE12AF059DA005C5512 /* images in Resources */,
+				47001EE32AF059DA005C5512 /* manifest.json in Resources */,
+				47001EDF2AF059DA005C5512 /* _locales in Resources */,
+				47001EE72AF059DA005C5512 /* content.js in Resources */,
+				47001EED2AF059DA005C5512 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47001EB62AF059D9005C5512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47001ECA2AF059D9005C5512 /* ViewController.swift in Sources */,
+				47001EBE2AF059D9005C5512 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47001ED22AF059DA005C5512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47001EDC2AF059DA005C5512 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47001ED92AF059DA005C5512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47001ED52AF059DA005C5512 /* PersistMedia Extension */;
+			targetProxy = 47001ED82AF059DA005C5512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47001EC02AF059D9005C5512 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47001EC12AF059D9005C5512 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		47001ECB2AF059D9005C5512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47001ECC2AF059D9005C5512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47001EF02AF059DA005C5512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47001EF12AF059DA005C5512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		47001EF32AF059DA005C5512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PersistMedia Extension/PersistMedia_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMQXSULQV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PersistMedia Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PersistMedia Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onur.PersistMedia.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47001EF42AF059DA005C5512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PersistMedia Extension/PersistMedia_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMQXSULQV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PersistMedia Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PersistMedia Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onur.PersistMedia.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		47001EF72AF059DA005C5512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PersistMedia/PersistMedia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMQXSULQV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PersistMedia;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onur.PersistMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47001EF82AF059DA005C5512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PersistMedia/PersistMedia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMQXSULQV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PersistMedia;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onur.PersistMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47001EB52AF059D9005C5512 /* Build configuration list for PBXProject "PersistMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47001EF02AF059DA005C5512 /* Debug */,
+				47001EF12AF059DA005C5512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47001EF22AF059DA005C5512 /* Build configuration list for PBXNativeTarget "PersistMedia Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47001EF32AF059DA005C5512 /* Debug */,
+				47001EF42AF059DA005C5512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47001EF62AF059DA005C5512 /* Build configuration list for PBXNativeTarget "PersistMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47001EF72AF059DA005C5512 /* Debug */,
+				47001EF82AF059DA005C5512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47001EB22AF059D9005C5512 /* Project object */;
+}
