@@ -1,7 +1,7 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+browser.runtime.onMessage.addListener((message, sender) => {    
+    const element = document.querySelector('.html5-main-video')
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+    element.click()
+
+    return Promise.resolve();
 });

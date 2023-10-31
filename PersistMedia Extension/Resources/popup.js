@@ -1,1 +1,1 @@
-console.log("Hello World!", browser);
+console.log(JSON.stringify(browser), browser);
